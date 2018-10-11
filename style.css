@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  color: aquamarine;
+  outline: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: black;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper #IBAN {
+  font-size: 4em;
+  margin-bottom: 50px;
+}
+
+.wrapper #generateBtn {
+  width: 150px;
+  height: 80px;
+  border: 2px solid aquamarine;
+  border-radius: 3px;
+  background: black;
+  font-size: 2em;
+  transition: all 250ms ease;
+}
+
+.wrapper #generateBtn:hover {
+  background: aquamarine;
+  color: black;
+}
+
+.wrapper h3 {
+  margin-top: 60px;
+}
